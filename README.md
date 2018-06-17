@@ -4,6 +4,8 @@
 
 A proof of concept 
 
+[Wiki -- Api documentation](https://github.com/xavrb/couchtime-cnkt/wiki)  
+
 
 # What is couch Time 
 
@@ -42,4 +44,4 @@ Yes.
 
 ## Licence
 
-This is licensed under MIT.  
+This is licensed under GPL3.  
