@@ -8,6 +8,7 @@ A proof of concept
 |----|  
 | [Documentation](#documentation) |  
 | [REST framework](#rest-framework) |  
+| [Database Model](#database-model)|  
 | [What is couchtime](#what-is-couch-time)|  
 | [What can I do on CT](#what-can-i-do-on-ct) |  
 | [To do](#to-do) |  
@@ -22,6 +23,8 @@ A proof of concept
 ## REST framework
 We are using [TastyPie](https://github.com/django-tastypie/django-tastypie)  
 
+## Database (model)  
+Using the default SQLITE django model.  
 
 ## What is couch Time 
 
