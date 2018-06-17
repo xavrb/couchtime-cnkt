@@ -4,10 +4,26 @@
 
 A proof of concept 
 
+| Index |  
+|----|  
+| [Documentation](#documentation) |  
+| [REST framework](#rest-framework) |  
+| [What is couchtime](#what-is-couch-time)|  
+| [What can I do on CT](#what-can-i-do-on-ct) |  
+| [To do](#to-do) |  
+| [Will I be hired](#will-i-be-hired) |  
+| [Licence](#licence)|  
+
+## Documentation  
+
 [Wiki -- Api documentation](https://github.com/xavrb/couchtime-cnkt/wiki)  
 
 
-# What is couch Time 
+## REST framework
+We are using [TastyPie](https://github.com/django-tastypie/django-tastypie)  
+
+
+## What is couch Time 
 
 We all at some point ever wanted to log every movie we liked -- wether you are a fan of Back to the future or maybe Silence of the lambs, even Twilight (no judgement here), it doesn't matter -- so we can talk to our friends on the next party or just to collect watched movies. Enter Couch Time.  
 It’s a simple API and implementation developed in Python Django as a proof of concept  — a technical test, where an user can log their fav movies.  
