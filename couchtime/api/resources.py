@@ -1,7 +1,7 @@
 from tastypie.resources import ModelResource
-from api.models import movie
+from api.models import Movie
 
 class MovieResource(ModelResource):
     class Meta:
-        queryset = movie.objects.all()
+        queryset = Movie.objects.all()
         resource_name = 'movie'
