@@ -8,6 +8,7 @@ A proof of concept
 |----|  
 | [Documentation](#documentation) |  
 | [REST framework](#rest-framework) |  
+| [Using the api]($using-the-api)|  
 | [Database Model](#database-model)|  
 | [What is couchtime](#what-is-couch-time)|  
 | [What can I do on CT](#what-can-i-do-on-ct) |  
@@ -22,6 +23,20 @@ A proof of concept
 
 ## REST framework
 We are using [TastyPie](https://github.com/django-tastypie/django-tastypie)  
+
+## Using the api
+
+The easiest way to use the api is through `curl`. An example is shown as follows:  
+```bash 
+curl http://localhost:8000/api/movie/
+
+```
+Which will return:  
+```bash 
+{"meta": {"limit": 20, "next": null, "offset": 0, "previous": null, "total_count": 9}, "objects": [{"cast": "Chris Pratt, Bryce Dallas Howard, Rafe Spall", "comment": "no comment", "country": "US", "created_at": "2018-06-17T05:20:06.595643", "director": "J.A. Bayona ", "genre": "Action", "id": 1, "rating": 0, "resource_uri": "/api/movie/1/", "title": "Jurassic World", "year": "2018"}, {"cast": "sadjksadasd", "comment": "sldjlasasda", "country": "aspodasdasa", "created_at": "2018-06-19T03:03:08.167285", "director": "kldlsa", "genre": "action", "id": 2, "rating": 2, "resource_uri": "/api/movie/2/", "title": "test", "year": "3838"}, {"cast": "sadjksadasd", "comment": "sldjlasasda", "country": "aspodasdasa", "created_at": "2018-06-19T03:06:21.388922", "director": "kldlsa", "genre": "action", "id": 3, "rating": 2, "resource_uri": "/api/movie/3/", "title": "test", "year": "3838"}, {"cast": "sadjksadasd", "comment": "sldjlasasda", "country": "aspodasdasa", "created_at": "2018-06-19T03:12:15.761063", "director": "kldlsa", "genre": "action", "id": 4, "rating": 2, "resource_uri": "/api/movie/4/", "title": "test", "year": "3838"}, {"cast": "sadjksadasd", "comment": "sldjlasasda", "country": "aspodasdasa", "created_at": "2018-06-19T03:17:52.232553", "director": "kldlsa", "genre": "action", "id": 5, "rating": 2, "resource_uri": "/api/movie/5/", "title": "test", "year": "3838"}, {"cast": "sadjksadasd", "comment": "sldjlasasda", "country": "aspodasdasa", "created_at": "2018-06-19T03:18:18.999236", "director": "kldlsa", "genre": "action", "id": 6, "rating": 2, "resource_uri": "/api/movie/6/", "title": "test", "year": "3838"}, {"cast": "sadjksadasd", "comment": "sldjlasasda", "country": "aspodasdasa", "created_at": "2018-06-19T03:22:32.693211", "director": "kldlsa", "genre": "action", "id": 7, "rating": 2, "resource_uri": "/api/movie/7/", "title": "test", "year": "3838"}, {"cast": "Chris Pratt2, Bryce Dallas 2Howard2, Rafe Spall2", "comment": "no comment2", "country": "US", "created_at": "2018-06-19T03:38:16.983378", "director": "J.A. Bayona 2", "genre": "Action2", "id": 8, "rating": 2, "resource_uri": "/api/movie/8/", "title": "Jurassic World2", "year": "2028"}, {"cast": "Chris Pratt2, Bryce Dallas 2Howard2, Rafe Spall2", "comment": "no comment2", "country": "US", "created_at": "2018-06-19T03:38:18.768205", "director": "J.A. Bayona 2", "genre": "Action2", "id": 9, "rating": 2, "resource_uri": "/api/movie/9/", "title": "Jurassic World2", "year": "2028"}]}
+```
+You can read more on the [documentation](#documentation). Also you can use your browser and point it to the same address or [Postman](https://app.getpostman.com/app/download/linux64) for a nicer looking way to visualize th data.  
+  
 
 ## Database (model)  
 Using the default SQLITE django model.  
