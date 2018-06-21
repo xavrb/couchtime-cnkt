@@ -19,7 +19,13 @@ A proof of concept
 ## Documentation  
 
 [Wiki -- Api documentation](https://github.com/xavrb/couchtime-cnkt/wiki)  
+Quick Overview  
 
+|Method|  
+|----|  
+|[GET](https://github.com/xavrb/couchtime-cnkt/wiki/Show-movie)|  
+|[POST](https://github.com/xavrb/couchtime-cnkt/wiki/Post-a-movie)|  
+  
 
 ## REST framework
 We are using [TastyPie](https://github.com/django-tastypie/django-tastypie)  
